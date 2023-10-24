@@ -1,0 +1,182 @@
+*{
+
+    font-family: 'Open Sans', sans-serif;
+}
+table{
+    border: 1px solid black;
+    background-color: white;
+    border-collapse: collapse;
+}
+h1, #copyright{
+    text-align: center;
+}
+#days{
+    text-align: center;
+}
+tr{
+    height: 50px;
+}
+td{
+    width: 80px;
+}
+.january{
+    background-color: aquamarine;
+}
+.january tr:nth-child(2n) .box:nth-child(2n+1),
+.january tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: aqua;
+}
+.january thead, .january #days{
+    background-color: rgb(10, 79, 255);
+}
+.february{
+    background-color: white;
+}
+.february tr:nth-child(2n) .box:nth-child(2n+1),
+.february tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: red;
+}
+.february tr:nth-child(2n) .box:nth-child(2n),
+.february tr:nth-child(2n+1) .box:nth-child(2n+1){
+    background-color: pink;
+}
+.february thead, .february #days{
+    background-color: rgb(254, 186, 214);
+}
+.march{
+    background-color: greenyellow;
+}
+.march tr:nth-child(2n) .box:nth-child(2n+1),
+.march tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: green;
+}
+.march tr:nth-child(2n) .box:nth-child(2n),
+.march tr:nth-child(2n+1) .box:nth-child(2n+1){
+    background-color: rgb(9, 203, 35);
+}
+.march thead, .march #days{
+    background-color: rgb(255, 251, 0);
+}
+.april{
+    background-color: skyblue;
+}
+.april tr:nth-child(2n) .box:nth-child(2n+1),
+.april tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: yellow;
+}
+.april tr:nth-child(2n) .box:nth-child(2n),
+.april tr:nth-child(2n+1) .box:nth-child(2n+1){
+    background-color: pink;
+}
+.may{
+    background-color: #fca4f9;
+}
+.may tr:nth-child(2n) .box:nth-child(2n+1),
+.may tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: rgb(52, 207, 189);
+}
+.may thead, .may #days{
+    background-color: rgb(116, 255, 155);
+}
+.june{
+    background-color: coral;
+}
+.june tr:nth-child(2n) .box:nth-child(2n+1),
+.june tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: yellow;
+}
+.june tr:nth-child(2n) .box:nth-child(2n),
+.june tr:nth-child(2n+1) .box:nth-child(2n+1){
+    background-color: pink;
+}
+.june thead, .june #days{
+    background-color: skyblue;
+}
+.july{
+    background: repeating-linear-gradient(red, red 50px, white 50px, white 100px);
+}
+.july tr:nth-child(2n) .box:nth-child(2n+1),
+.july tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: rgb(0, 0, 158);
+    color: white
+}
+.august{
+    background-color: aqua;
+
+}
+.august tr:nth-child(2n) .box:nth-child(2n+1),
+.august tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: yellow;
+}
+.august thead, .august #days{
+    background-color: rgb(167, 150, 130);
+}
+.september{
+    background-color: #7902bd;
+}
+.september tr:nth-child(2n) .box:nth-child(2n+1),
+.september tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: orange;
+}
+.september tr:nth-child(2n) .box:nth-child(2n),
+.september tr:nth-child(2n+1) .box:nth-child(2n+1){
+    background-color: yellow;
+}
+.september thead, .september #days{
+    background-color: rgb(255, 76, 76);
+}
+.october{
+    background-color: #333;
+}
+.october tr:nth-child(2n) .box:nth-child(2n+1),
+.october tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: orange;
+}
+
+.october tr:nth-child(2n) .box:nth-child(2n),
+.october tr:nth-child(2n+1) .box:nth-child(2n+1){
+    background-color: greenyellow;
+}
+.october thead, .october #days{
+    background-color: rgb(56, 15, 86);
+    color: white;
+}
+.october h1, .october #copyright{
+    color: white;
+}
+.november{
+    background-color: yellow;
+}
+.november tr:nth-child(2n) .box:nth-child(2n+1),
+.november tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: orange;
+}
+.november tr:nth-child(2n) .box:nth-child(2n),
+.november tr:nth-child(2n+1) .box:nth-child(2n+1){
+    background-color: brown;
+}
+.november thead, .november #days{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.december{
+    background-color: white;
+}
+.december tr:nth-child(2n) .box:nth-child(2n+1),
+.december tr:nth-child(2n+1) .box:nth-child(2n){
+    background-color: red;
+}
+.december tr:nth-child(2n) .box:nth-child(2n),
+.december tr:nth-child(2n+1) .box:nth-child(2n+1){
+    background-color: green;
+}
+.december thead, .december #days{
+    background-color: yellow;
+}
+
+@media(min-width: 250px) and (max-width: 550px){
+    *{
+        font-size: 9px;
+        font-weight: 600;
+    }
+}
